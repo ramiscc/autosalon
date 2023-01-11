@@ -1,0 +1,20 @@
+.footer {
+  background: #262626;
+
+  &__navbar {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      list-style: none;
+      cursor: pointer;
+    }
+  }
+}

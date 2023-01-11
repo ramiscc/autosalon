@@ -1,0 +1,43 @@
+.modal {
+  background: #0006;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.content{
+  background: #FFFFFF;
+  border-radius: 25px;
+  position: relative;
+  padding: 50px;
+}
+
+.close{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  &:before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #FFFFFF;
+    transform: rotate(45deg);
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 2px;
+    background: #FFFFFF;
+    transform: rotate(-45deg);
+  }
+}
